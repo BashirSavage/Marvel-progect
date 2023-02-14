@@ -1,0 +1,58 @@
+.app{
+    width: 1440px;
+}
+
+
+.header{
+    width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0px;
+  margin-left: 166px;
+  
+}
+
+.marvel{
+    font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 33px;
+text-decoration: none;
+color: #000000;
+}
+
+span{
+    color: #9F0013;
+}
+
+.characters{
+    font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+color: #000000;
+margin-right: 8px;
+text-decoration: none;
+}
+
+.characters:focus-within{
+    color: #9F0013;
+}
+
+.comics{
+    font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+color: #000000;
+margin-left: 8px;
+text-decoration: none;
+}
+
+.comics:focus{
+    color: #9F0013;
+}
